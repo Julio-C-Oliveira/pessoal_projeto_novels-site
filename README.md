@@ -93,6 +93,7 @@ Você quer o **modelo conceitual** em Markdown, ou seja, um resumo **sem tipos S
 
 ---
 
+```mermaid
 erDiagram
     USERS {
         int id PK
@@ -140,4 +141,4 @@ erDiagram
     BOOKS ||--o{ USER_BOOKS : pertence
     SERIES ||--o{ BOOKS : contem
     USERS ||--o{ BOOK_REQUESTS : solicita
-
+```
